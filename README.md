@@ -1,5 +1,5 @@
 # JANJI
-Saya Farah Diba Nur Malinda dengan NIM 2502083 mengerjakan Tugas Praktikum 2 dalam mata kuliah Desain dan Pemrograman 
+Saya Farah Diba Nur Malinda dengan NIM 2502083 mengerjakan Tugas Praktikum 3 dalam mata kuliah Desain dan Pemrograman 
 Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 # DIAGRAM
