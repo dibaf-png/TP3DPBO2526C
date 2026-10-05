@@ -42,89 +42,89 @@ Pada Program ini terdapat 8 class yang terdiri dari beberapa atribut dan method,
     
 4. MetodePembayaran
   - Atribut:
-    - jenisPembayaran → menyimpan jenis pembayaran.
-    - noPembayaran → menyimpan nomor transaksi.
-    - statusPembayaran → menyimpan status pembayaran.
+       - jenisPembayaran → menyimpan jenis pembayaran.
+       - noPembayaran → menyimpan nomor transaksi.
+       - statusPembayaran → menyimpan status pembayaran.
   - Method:
-    - setJenis() → menentukan jenis pembayaran.
-    - prosesPembayaran() → memproses pembayaran.
-    - cekStatus() → mengecek status pembayaran.
-    - tampilPembayaran() → menampilkan data pembayaran.
-    - getJenis() → mengambil jenis pembayaran.
-    - getNomor() → mengambil nomor transaksi.
-    - getStatus() → mengambil status pembayaran.
+       - setJenis() → menentukan jenis pembayaran.
+       - prosesPembayaran() → memproses pembayaran.
+       - cekStatus() → mengecek status pembayaran.
+       - tampilPembayaran() → menampilkan data pembayaran.
+       - getJenis() → mengambil jenis pembayaran.
+       - getNomor() → mengambil nomor transaksi.
+       - getStatus() → mengambil status pembayaran.
    
 4. MetodePemesanan
    - Atribut:
-     - idMetode → ID metode pemesanan yang dibuat otomatis.
-     - namaPelanggan → nama pelanggan.
-     - waktuPemesanan → waktu pemesanan.
+        - idMetode → ID metode pemesanan yang dibuat otomatis.
+        - namaPelanggan → nama pelanggan.
+        - waktuPemesanan → waktu pemesanan.
    - Method:
-    - setNamaPelanggan() → mengubah nama pelanggan.
-    - setWaktuPemesanan() → mengubah waktu pemesanan.
-    - getIdMetode() → mengambil ID metode.
-    - getNamaPelanggan() → mengambil nama pelanggan.
-    - getWaktuPemesanan() → mengambil waktu pemesanan.
-    - tampilMetode() → menampilkan data dasar metode pemesanan.
+        - setNamaPelanggan() → mengubah nama pelanggan.
+        - setWaktuPemesanan() → mengubah waktu pemesanan.
+        - getIdMetode() → mengambil ID metode.
+        - getNamaPelanggan() → mengambil nama pelanggan.
+        - getWaktuPemesanan() → mengambil waktu pemesanan.
+        - tampilMetode() → menampilkan data dasar metode pemesanan.
    
 6. DriveThru
    - Atribut:
-    - nomorKendaraan → nomor kendaraan pelanggan.
-    - jenisKendaraan → jenis kendaraan.
-    - nomorLoket → nomor loket yang ditentukan sistem.
+        - nomorKendaraan → nomor kendaraan pelanggan.
+        - jenisKendaraan → jenis kendaraan.
+        - nomorLoket → nomor loket yang ditentukan sistem.
    - Method:
-    - setNomorKendaraan() → mengubah nomor kendaraan.
-    - setJenisKendaraan() → mengubah jenis kendaraan.
-    - getNomorKendaraan() → mengambil nomor kendaraan.
-    - getJenisKendaraan() → mengambil jenis kendaraan.
-    - getNomorLoket() → mengambil nomor loket.
-    - cekLoket() → menentukan nomor loket.
-    - tampilDriveThru() → menampilkan data Drive Thru.
+        - setNomorKendaraan() → mengubah nomor kendaraan.
+        - setJenisKendaraan() → mengubah jenis kendaraan.
+        - getNomorKendaraan() → mengambil nomor kendaraan.
+        - getJenisKendaraan() → mengambil jenis kendaraan.
+        - getNomorLoket() → mengambil nomor loket.
+        - cekLoket() → menentukan nomor loket.
+        - tampilDriveThru() → menampilkan data Drive Thru.
 
 6. SelfService
    - Atribut:
-    - nomorKiosk → nomor kiosk yang digunakan.
-    - nomorAntrian → nomor antrean pelanggan.
+        - nomorKiosk → nomor kiosk yang digunakan.
+        - nomorAntrian → nomor antrean pelanggan.
   - Method:
-    - getNomorKiosk() → mengambil nomor kiosk.
-    - getNomorAntrian() → mengambil nomor antrean.
-    - pilihKiosk() → menentukan kiosk.
-    - ambilNomorAntrian() → membuat nomor antrean.
-    - tampilSelfService() → menampilkan data Self Service.
+       - getNomorKiosk() → mengambil nomor kiosk.
+       - getNomorAntrian() → mengambil nomor antrean.
+       - pilihKiosk() → menentukan kiosk.
+       - ambilNomorAntrian() → membuat nomor antrean.
+       - tampilSelfService() → menampilkan data Self Service.
    
 7. TableService
    - Atribut:
-     - nomorMeja → nomor meja pelanggan.
-     - jumlahPelanggan → jumlah pelanggan dalam satu pesanan.
-     - namaPelayan → nama pelayan yang ditentukan sistem.
+        - nomorMeja → nomor meja pelanggan.
+        - jumlahPelanggan → jumlah pelanggan dalam satu pesanan.
+        - namaPelayan → nama pelayan yang ditentukan sistem.
    - Method:
-    - setJumlahPelanggan() → mengubah jumlah pelanggan.
-    - getNomorMeja() → mengambil nomor meja.
-    - getJumlahPelanggan() → mengambil jumlah pelanggan.
-    - getNamaPelayan() → mengambil nama pelayan.
-    - pilihMeja() → menentukan nomor meja.
-    - pilihPelayan() → menentukan nama pelayan.
-    - tampilTableService() → menampilkan data Table Service.
+        - setJumlahPelanggan() → mengubah jumlah pelanggan.
+        - getNomorMeja() → mengambil nomor meja.
+        - getJumlahPelanggan() → mengambil jumlah pelanggan.
+        - getNamaPelayan() → mengambil nama pelayan.
+        - pilihMeja() → menentukan nomor meja.
+        - pilihPelayan() → menentukan nama pelayan.
+        - tampilTableService() → menampilkan data Table Service.
    
 8. OnlineDelivery
     - Atribut:
-     - namaPlatform → platform pemesanan.
-     - namaKurir → nama kurir yang ditentukan sistem.
-     - alamatPesanan → alamat pengantaran.
-     - jarakPengantaran → jarak pengantaran.
-     - biayaKirim → biaya pengiriman.
+         - namaPlatform → platform pemesanan.
+         - namaKurir → nama kurir yang ditentukan sistem.
+         - alamatPesanan → alamat pengantaran.
+         - jarakPengantaran → jarak pengantaran.
+         - biayaKirim → biaya pengiriman.
    - Method:
-    - setNamaPlatform() → menentukan platform.
-    - setAlamat() → mengubah alamat pengantaran.
-    - setJarakPengantaran() → memasukkan jarak pengantaran.
-    - getNamaPlatform() → mengambil nama platform.
-    - getNamaKurir() → mengambil nama kurir.
-    - getAlamatPesanan() → mengambil alamat.
-    - getJarakPengantaran() → mengambil jarak.
-    - getBiayaKirim() → mengambil biaya kirim.
-    - pilihKurir() → menentukan kurir.
-    - hitungBiayaKirim() → menghitung biaya pengiriman berdasarkan jarak.
-    - tampilDelivery() → menampilkan data Online Delivery.
+        - setNamaPlatform() → menentukan platform.
+        - setAlamat() → mengubah alamat pengantaran.
+        - setJarakPengantaran() → memasukkan jarak pengantaran.
+        - getNamaPlatform() → mengambil nama platform.
+        - getNamaKurir() → mengambil nama kurir.
+        - getAlamatPesanan() → mengambil alamat.
+        - getJarakPengantaran() → mengambil jarak.
+        - getBiayaKirim() → mengambil biaya kirim.
+        - pilihKurir() → menentukan kurir.
+        - hitungBiayaKirim() → menghitung biaya pengiriman berdasarkan jarak.
+        - tampilDelivery() → menampilkan data Online Delivery.
 
 # ALUR PROGRAM
 1. Program dijalankan.
@@ -239,8 +239,6 @@ Program berhenti.
   <img width="339" height="532" alt="tambah_data" src="https://github.com/user-attachments/assets/499edd0c-32aa-487b-83de-bf93a16e5dfa" />
 
   Tampil data:
-
-  <img width="332" height="299" alt="tampilkan_data" src="https://github.com/user-attachments/assets/37a21713-7cc4-4047-8fbd-0a2d5d04f883" />
-
+  
   <img width="332" height="299" alt="tampilkan_data" src="https://github.com/user-attachments/assets/c57db768-14df-4456-ac0c-1abf05c4ca3d" />
 
