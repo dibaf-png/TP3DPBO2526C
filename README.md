@@ -9,38 +9,38 @@ Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan sepe
 Pada Program ini terdapat 8 class yang terdiri dari beberapa atribut dan method, yaitu:
 1. Pesanan
    - Atribut:
-     - idPesanan → menyimpan ID pesanan.
-     - totalBayar → menyimpan total pembayaran.
-     - statusPesanan → menyimpan status pesanan.
-     - listPesanan → menyimpan daftar makanan yang dipesan.
-     - pembayaran → menyimpan metode pembayaran.
-     - caraPemesanan → menyimpan metode pemesanan.
-     - jenisMetode → mengetahui jenis metode pemesanan yang digunakan.
+        - idPesanan → menyimpan ID pesanan.
+        - totalBayar → menyimpan total pembayaran.
+        - statusPesanan → menyimpan status pesanan.
+        - listPesanan → menyimpan daftar makanan yang dipesan.
+        - pembayaran → menyimpan metode pembayaran.
+        - caraPemesanan → menyimpan metode pemesanan.
+        - jenisMetode → mengetahui jenis metode pemesanan yang digunakan.
   - Method:
-     - hitungTotal() → menghitung total harga pesanan.
-     - ubahStatusPesanan() → mengubah status pesanan.
-     - tambahPesanan() → menambahkan makanan ke pesanan.
-     - setCaraPemesanan() → menentukan metode pemesanan.
-     - setJenisPembayaran() → menentukan metode pembayaran.
-     - bayarPesanan() → memproses pembayaran.
-     - tampilPesanan() → menampilkan seluruh data pesanan.
+       - hitungTotal() → menghitung total harga pesanan.
+       - ubahStatusPesanan() → mengubah status pesanan.
+       - tambahPesanan() → menambahkan makanan ke pesanan.
+       - setCaraPemesanan() → menentukan metode pemesanan.
+       - setJenisPembayaran() → menentukan metode pembayaran.
+       - bayarPesanan() → memproses pembayaran.
+       - tampilPesanan() → menampilkan seluruh data pesanan.
    
-3. ItemPesanan
+2. ItemPesanan
    - Atribut:
-     - namaProduk → nama makanan.
-     - hargaProduk → harga makanan.
-     - jumlahProduk → jumlah makanan yang dipesan.
+        - namaProduk → nama makanan.
+        - hargaProduk → harga makanan.
+        - jumlahProduk → jumlah makanan yang dipesan.
   - Method:
-    - hitungSubtotal() → menghitung harga × jumlah.
-    - ubahJumlahProduk() → mengubah jumlah makanan.
-    - tampilDaftar() → menampilkan detail makanan.
-    - getNamaProduk() → mengambil nama produk.
-    - getHargaProduk() → mengambil harga produk.
-    - getJumlahProduk() → mengambil jumlah produk.
-    - setNamaProduk() → mengubah nama produk.
-    - setJumlahProduk() → mengubah jumlah produk.
+       - hitungSubtotal() → menghitung harga × jumlah.
+       - ubahJumlahProduk() → mengubah jumlah makanan.
+       - tampilDaftar() → menampilkan detail makanan.
+       - getNamaProduk() → mengambil nama produk.
+       - getHargaProduk() → mengambil harga produk.
+       - getJumlahProduk() → mengambil jumlah produk.
+       - setNamaProduk() → mengubah nama produk.
+       - setJumlahProduk() → mengubah jumlah produk.
     
-4. MetodePembayaran
+3. MetodePembayaran
   - Atribut:
        - jenisPembayaran → menyimpan jenis pembayaran.
        - noPembayaran → menyimpan nomor transaksi.
