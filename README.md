@@ -216,6 +216,7 @@ Program berhenti.
 
 # DOKUMENTASI
 - cpp
+  
   Tampilan ketika data masih kosong:
   
   <img width="467" height="159" alt="tampil data_kosong" src="https://github.com/user-attachments/assets/1e1a2885-9660-4a5f-926a-10c0b916bbbd" />
@@ -229,6 +230,7 @@ Program berhenti.
   <img width="399" height="415" alt="tampil data" src="https://github.com/user-attachments/assets/2b6cf297-0cc5-4c0a-829a-c414c3092e62" />
 
 - python
+  
   Tampilan ketika data masin kosong:
   
   <img width="340" height="101" alt="data_kosong" src="https://github.com/user-attachments/assets/73b96ba5-0fb3-4445-95ba-cb2af37aea3e" />
